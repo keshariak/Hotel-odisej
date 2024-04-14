@@ -1,0 +1,88 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+html,body
+{
+height: 100%;
+width: 100%;
+background-color: #F7F7EE;
+
+}
+#nav{
+    padding: 0 50px;
+    width: 100%;
+    height: 80px;
+    z-index: 9999;
+    position: absolute;
+    /* background-color: lightblue; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#page1{
+    width: 100%;
+    height: 100vh;
+    /* background-color: red; */
+    /* background-image: url(https://hotelodisej.com/wp-content/uploads/bf-advanced-images/209/ALH_Odisej_exterior_aerial_07-scaled-2880x0.jpg); */
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+#page1 img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    object-fit: cover;
+    object-position: center;
+}
+#nav1{
+    height: 17px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+     
+
+}
+#nav2 button{
+    padding: 9px 20px ;
+    border-radius: 50px;
+    background-color: transparent;
+    border: 1px solid #E3E3C4;
+    margin-right: 20px;
+    font-weight: 500    ;
+    
+}
+#nav2 button:nth-last-child(1){
+    background-color:#5B6647;
+    color: #FEFDFB;
+}
+#nav2 button:hover{
+    background-color: #E3E3C4;
+}
+#nav2 button:nth-last-child(1):hover{
+    background-color: #34392a;
+}
+#nav .line{
+    width: 43px;
+    height: 2px;
+    background-color: #5B6647;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#page1 svg{
+    fill: #434B34;
+    scale: 0.24;
+    position: absolute;
+    top: -15%;
+}
+#page2{
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    background-color: #434B34;
+}
