@@ -244,6 +244,7 @@ var p4img = document.querySelector("#page4 .section .sec #img")
 var sec = document.querySelector("#page4 .section .sec")
 var roomname =document.querySelector("#page4 .section .sec #room-name")
 var p2btn = document.querySelector("#page4 .section .sec button")
+
 sec.addEventListener("mouseenter",function(){
     p4img.style.left=0,
     roomname.style.left="23%",
@@ -264,6 +265,10 @@ sec.addEventListener("mouseleave",function(){
     p2btn.style.backgroundColor= "#5B6647"
     p2btn.style.color= "#F7F7EE"
 })
+
+
+
+
 
 
 
